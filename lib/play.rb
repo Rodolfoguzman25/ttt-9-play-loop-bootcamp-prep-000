@@ -41,4 +41,3 @@ def play(yeah)
    turn(yeah)
  end
 end
-  
