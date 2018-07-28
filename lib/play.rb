@@ -37,12 +37,8 @@ end
 
 # Define your play method below
 def play(yeah)
-  i=0
-  loop do
-    turn(yeah)
-    i++
-    while i<10
-    break
-  end
+ 10.times do
+   turn(board)
+ end
 end
   
